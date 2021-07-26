@@ -5,6 +5,7 @@ import boto3
 client = boto3.client('dynamodb', region_name='us-east-2')
 
 
+
 try:
     resp = client.create_table(
         TableName="Books",
